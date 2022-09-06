@@ -122,6 +122,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="CourseManager.sql" />
+    <Resource Include="Instructions.txt" />
   </ItemGroup>
   <ItemGroup>
     <Page Include="Views\MainView.xaml">

@@ -1,0 +1,30 @@
+01) Add NuGet packages: Dapper, Caliburn.Micro
+
+02) Create Startup.cs derived
+- Inherit from BootstrapperBase.
+- Implement OnStartup().
+- DisplayRootViewForAsync<MainViewModel>()
+
+03) Create Folders: Models, ViewModels, Views (required by Caliburn)
+
+04) Create MainViewModel.cs
+- Inherit from Screen.
+
+05) Delete MainWindow.xaml and add MainView.xaml.
+
+06) Modify App.xaml (required by Caliburn)
+- Delete StartupUri.
+- Add Application.Resources section.
+- Set <local:Startup x:Key="Startup" />
+
+07) Create Models: CourseModel, EnrollmentModel, StudentModel
+
+08) Create Commands: CourseCommand, EnrollmentCommand, StudentCommand
+
+09) Add controls to MainViewModel.cs
+
+10) Add bindable collections to MainViewModel.cs.
+
+11) Bind comboboxes, listview, and app status to data.
+
+
